@@ -105,8 +105,9 @@
           </systemPropertyVariables>
         </configuration>
       </plugin>
-      <!-- Adding the jkube plugin configuration here -->
-      <jkube.build.switchToDeployment>true</jkube.build.switchToDeployment>
+     <properties>
+        <jkube.build.switchToDeployment>true</jkube.build.switchToDeployment>
+     </properties>
     </plugins>
   </build>
   <profiles>
